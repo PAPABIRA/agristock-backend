@@ -9,6 +9,8 @@ class LigneCommande extends Model
 {
     use HasFactory;
 
+    protected $table = 'lignes_commandes';
+
     protected $fillable = [
         'commande_id',
         'produit_id',
